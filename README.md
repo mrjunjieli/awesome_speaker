@@ -16,12 +16,15 @@
 This repository aims to help students become familiar with speaker-related tasks while also serving as a resource for my own learning and development. 
 
 
-Summary of speaker related tasks, like speaker recognition, verification, diarization, spoofing, voice conversion, target speaker extraction and so on. 
+Summary of speaker related tasks, like speaker recognition, verification, diarization, spoofing, privacy, voice conversion, target speaker extraction and so on. 
 
 ## Book recommendations
 * Understanding Deep learning [[pdf]](https://udlbook.github.io/udlbook/)
 * Computer vision: models learning and inference [[pdf]](https://udlbook.github.io/cvbook/)
 
+
+## Basic Knowledge of Machine Learning
+* [Kullback-Leibler Divergence](resources/README.md)
 
 ## Speaker Recognition/Verification:
 
@@ -42,6 +45,10 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
  * Transformer based: 
    * Self Multi-Head Attention for Speaker Recognition
    * LOCAL INFORMATION MODELING WITH SELF-ATTENTION FOR SPEAKER VERIFICATION
+* SPEAKER RECOGNITION FROM RAW WAVEFORM WITH SINCNET 
+* Self-supervised: 
+   * Self-supervised speaker embeddings 
+   * Neural Predictive Coding using Convolutional Neural Networks towards Unsupervised Learning of Speaker Characteristics
 
  ### Aggregation Layers 
  implementation: wespeaker/models/pooling_layers
@@ -53,10 +60,21 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
  ### Datasets 
 
 
-## Voice Vonversion 
+## Voice Conversion 
+
+### Non-parallel:
+* CycleGAN-VC: Non-parallel Voice Conversion Using Cycle-Consistent Adversarial Networks
+
+### Voice Anonymization
+* MODELING PSEUDO-SPEAKER UNCERTAINTY IN VOICE ANONYMIZATION
 
 ## Target Speaker Extraction
 
 ## Speaker Diarization 
 
 ## Spoofing 
+
+
+
+## Others
+* Emerging Properties in Self-Supervised Vision Transformers
