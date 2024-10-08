@@ -9,7 +9,7 @@ $H(x) = -\sum_{x \in X} p(x) \log p(x)$
 
 ## KL divergence 
 The KL divergence is a slight modification of the entropy fomula. Assuming there is a **true** probability distribution $p(x)$ and a predicted distribution $q(x)$, KL divergence is defined as follow: 
-$ D_{KL}(p(x)||q(x)) = \sum_{x \in X}  p(x) (\log p(x) - \log q(x))$
+$D_{KL}(p(x)||q(x)) = \sum_{x \in X}  p(x) (\log p(x) - \log q(x))$
 
 ### Properties
 
