@@ -24,7 +24,7 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 
 
 ## Basic Knowledge of Machine Learning
-* [Kullback-Leibler Divergence](resources/README.md)
+* [Kullback-Leibler Divergence](resources/README.md#kullback-leibler-divergence)
 
 ## Speaker Recognition/Verification:
 
