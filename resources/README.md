@@ -25,3 +25,33 @@ $D_{KL}(p(x)||q(x)) = \sum_{x \in X}  p(x) (\log p(x) - \log q(x))$
 * https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html
 * https://blog.csdn.net/qq_50001789/article/details/128974654
 * https://hanj.cs.illinois.edu/cs412/bk3/KL-divergence.pdf
+* https://pytorch.org/docs/stable/generated/torch.nn.functional.kl_div.html 
+* https://blog.csdn.net/jinyi763776890/article/details/131178144
+
+
+# Equal Error Rate (EER)
+
+EER is defined as the point where the True positive rato (TPR) equals to False positive rato (FPR). 
+In other words, it is the threshold at which the system is equally likely to wrongly accept a non-matching individual as it is to wrongly reject a matching individual. 
+
+
+## Code Implementation 
+[Wespeaker](https://github.com/wenet-e2e/wespeaker/blob/master/wespeaker/utils/score_metrics.py#L79)
+
+## References
+* https://www.cnblogs.com/cdeng/p/3471527.html 
+
+# minimum Detection Cost Function (minDCF)
+minDCF is a more comprehensive metric that takes into account the costs associated with different types of errors (false acceptances and false rejections) and the prior probabilities of the classes (target vs. non-target speakers).
+For example, in a military system, we want the system to be stricter and not to mistakenly allow a person to pass.
+
+
+## Code Implementation 
+[Wespeaker](https://github.com/wenet-e2e/wespeaker/blob/master/wespeaker/utils/score_metrics.py#L96)
+
+## References 
+* https://blog.csdn.net/weixin_41126303/article/details/114293441 
+
+
+
+
