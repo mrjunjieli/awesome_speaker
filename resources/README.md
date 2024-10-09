@@ -1,4 +1,4 @@
-# Kullback-Leibler Divergence
+# Kullback Leibler Divergence
 
 *KL divergence* aims to measure the difference between two probability distributions.
 The *KL divergencel* orginates from Information Theory and it is closely related to Information Entropy. 
@@ -29,7 +29,7 @@ $D_{KL}(p(x)||q(x)) = \sum_{x \in X}  p(x) (\log p(x) - \log q(x))$
 * https://blog.csdn.net/jinyi763776890/article/details/131178144
 
 
-# Equal Error Rate (EER)
+# Equal Error Rate
 
 EER is defined as the point where the True positive rato (TPR) equals to False positive rato (FPR). 
 In other words, it is the threshold at which the system is equally likely to wrongly accept a non-matching individual as it is to wrongly reject a matching individual. 
@@ -41,8 +41,8 @@ In other words, it is the threshold at which the system is equally likely to wro
 ## References
 * https://www.cnblogs.com/cdeng/p/3471527.html 
 
-# minimum Detection Cost Function (minDCF)
-minDCF is a more comprehensive metric that takes into account the costs associated with different types of errors (false acceptances and false rejections) and the prior probabilities of the classes (target vs. non-target speakers).
+# minimum Detection Cost Function
+The minDCF is a more comprehensive metric that takes into account the costs associated with different types of errors (false acceptances and false rejections) and the prior probabilities of the classes (target vs. non-target speakers).
 For example, in a military system, we want the system to be stricter and not to mistakenly allow a person to pass.
 
 

@@ -25,6 +25,9 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 
 ## Basic Knowledge of Machine Learning
 * [Kullback-Leibler Divergence](resources/README.md#kullback-leibler-divergence)
+* [Equal Error Rate](resources/README.md#equal-error-rate)
+* [minimum Detection Cost Function](resources/README.md#minimum-detection-cost-function)
+
 
 ## Speaker Recognition/Verification:
 
