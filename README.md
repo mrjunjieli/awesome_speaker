@@ -21,7 +21,8 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 ## Book recommendations
 * Understanding Deep learning [[pdf]](https://udlbook.github.io/udlbook/)
 * Computer vision: models learning and inference [[pdf]](https://udlbook.github.io/cvbook/)
-
+* 深入浅出强化学习：原理入门 [[pdf]](https://github.com/borninfreedom/DeepLearning/blob/master/Books/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%8E%9F%E7%90%86%E5%85%A5%E9%97%A8.pdf)
+* Reinforcement Learning [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
 
 ## Basic Knowledge of Machine Learning
 * [Kullback-Leibler Divergence](resources/README.md#kullback-leibler-divergence)
@@ -52,15 +53,21 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 * Self-supervised: 
    * Self-supervised speaker embeddings 
    * Neural Predictive Coding using Convolutional Neural Networks towards Unsupervised Learning of Speaker Characteristics
+* PLDA: Probabilistic Linear Discriminant Analysis for Inferences About Identity 
+* Reshape Dimensions Network for Speaker Recognition
+
 
  ### Aggregation Layers 
  implementation: wespeaker/models/pooling_layers
  * Temporal Average Pooling (TAP)
  * Temporal Statistics Pooling (TSTP): X-vectors: Robust dnn embeddings for speaker recognition
  * Attentive Statistics Pooling (ASP): ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification
- * 
+ 
 
  ### Datasets 
+
+ ### Challenge 
+ * [NIST SRE](https://sre.nist.gov/#tab_home)
 
 
 ## Voice Conversion 
@@ -72,12 +79,18 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 * MODELING PSEUDO-SPEAKER UNCERTAINTY IN VOICE ANONYMIZATION
 
 ## Target Speaker Extraction
+* INVESTIGATION OF SPEAKER REPRESENTATION FOR TARGET-SPEAKER SPEECH PROCESSING
+* 
 
 ## Speaker Diarization 
 
 ## Spoofing 
 
 
+## Targer Speaker ASR 
+
+
+## Personalized VAD 
 
 ## Others
 * Emerging Properties in Self-Supervised Vision Transformers

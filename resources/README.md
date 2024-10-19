@@ -54,4 +54,18 @@ For example, in a military system, we want the system to be stricter and not to 
 
 
 
+# Bayes theorem 
+Bayes' theorem allows us to update a probability of a hypothesis based on new evidences. 
+The theorem is expressed mathematically as:
 
+$P(H|E) = \frac{P(E|H)* P(H)}{P(E)}$,
+
+where  $P(H|E)$: Posterior probablity  
+$P(H)$: Prior probability  
+$P(E|H)$: Likelihood  
+$P(E)$: marginal probability
+
+
+## References 
+* https://www.freecodecamp.org/news/bayes-rule-explained/
+* https://liaoxuefeng.com/blogs/all/2023-08-27-bayes-explain/index.html 
