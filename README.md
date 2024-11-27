@@ -55,6 +55,9 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
    * Neural Predictive Coding using Convolutional Neural Networks towards Unsupervised Learning of Speaker Characteristics
 * PLDA: Probabilistic Linear Discriminant Analysis for Inferences About Identity 
 * Reshape Dimensions Network for Speaker Recognition
+* Guided Speaker Embedding
+* 
+
 
 
  ### Aggregation Layers 
@@ -65,6 +68,9 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
  
 
  ### Datasets 
+ * Voxceleb1 
+ * Voxceleb2 
+ * 
 
  ### Challenge 
  * [NIST SRE](https://sre.nist.gov/#tab_home)
@@ -85,6 +91,7 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 ## Speaker Diarization 
 
 ## Spoofing 
+* Towards Quantifying and Reducing Language Mismatch Effects in Cross-Lingual Speech Anti-Spoofing
 
 
 ## Targer Speaker ASR 

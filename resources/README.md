@@ -60,7 +60,8 @@ The theorem is expressed mathematically as:
 
 $P(H|E) = \frac{P(E|H)* P(H)}{P(E)}$,
 
-where  $P(H|E)$: Posterior probablity  
+where H denotes the hypothesis, E denotes the evidence. 
+$P(H|E)$: Posterior probablity  
 $P(H)$: Prior probability  
 $P(E|H)$: Likelihood  
 $P(E)$: marginal probability
