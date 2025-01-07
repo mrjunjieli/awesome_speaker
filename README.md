@@ -26,7 +26,7 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 * Wespe[![](https://img.shields.io/github/stars/wenet-e2e/wesep?style=social&label=Code+Stars)](https://github.com/wenet-e2e/wesep)
 
 # Some interesting repos
-* [MuQ][![](https://img.shields.io/github/stars/tencent-ailab/MuQ?style=social&label=Code+Stars)](https://github.com/tencent-ailab/MuQ)
+* ![MuQ](https://img.shields.io/github/stars/tencent-ailab/MuQ?style=social&label=Code+Stars)(https://github.com/tencent-ailab/MuQ)
 
 # Speaker Recognition/Verification:
 
