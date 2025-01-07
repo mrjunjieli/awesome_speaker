@@ -1,41 +1,36 @@
-- [Awesome Speaker In Speech Field](#awesome-speaker-in-speech-field)
-  * [Book recommendations](#book-recommendations)
-  * [Speaker Recognition/Verification:](#speaker-recognition-verification-)
-    + [Toolkit](#toolkit)
-    + [Speaker Models](#speaker-models)
-    + [Aggregation Layers](#aggregation-layers)
-    + [Datasets](#datasets)
-  * [Voice Vonversion](#voice-vonversion)
-  * [Target Speaker Extraction](#target-speaker-extraction)
-  * [Speaker Diarization](#speaker-diarization)
-  * [Spoofing](#spoofing)
+---
+title: Awesome Speaker
+top: true
+tag:
+- Speaker Verification
+categories:
+- Research
+---
 
 
-# Awesome Speaker In Speech Field 
 > Hi, everyone! I’m Junjie Li [[Homepage]](https://mrjunjieli.github.io/), currently a Ph.D. student at Hong Kong Polytechnic University (PolyU) 🇭🇰.
 This repository aims to help students become familiar with speaker-related tasks while also serving as a resource for my own learning and development. 
 
 
 Summary of speaker related tasks, like speaker recognition, verification, diarization, spoofing, privacy, voice conversion, target speaker extraction and so on. 
 
-## Book recommendations
+# Book recommendations
 * Understanding Deep learning [[pdf]](https://udlbook.github.io/udlbook/)
 * Computer vision: models learning and inference [[pdf]](https://udlbook.github.io/cvbook/)
 * 深入浅出强化学习：原理入门 [[pdf]](https://github.com/borninfreedom/DeepLearning/blob/master/Books/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%8E%9F%E7%90%86%E5%85%A5%E9%97%A8.pdf)
 * Reinforcement Learning [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
 
-## Basic Knowledge of Machine Learning
-* [Kullback-Leibler Divergence](resources/README.md#kullback-leibler-divergence)
-* [Equal Error Rate](resources/README.md#equal-error-rate)
-* [minimum Detection Cost Function](resources/README.md#minimum-detection-cost-function)
 
+# Toolkit
+* Wespeaker[![](https://img.shields.io/github/stars/wenet-e2e/wespeaker?style=social&label=Code+Stars)](https://github.com/wenet-e2e/wespeaker)
+* Wespe[![](https://img.shields.io/github/stars/wenet-e2e/wesep?style=social&label=Code+Stars)](https://github.com/wenet-e2e/wesep)
 
-## Speaker Recognition/Verification:
+# Some interesting repos
+* [MuQ][![](https://img.shields.io/github/stars/tencent-ailab/MuQ?style=social&label=Code+Stars)](https://github.com/tencent-ailab/MuQ)
 
-### Toolkit 
-* [Wespeaker](https://github.com/wenet-e2e/wespeaker)
+# Speaker Recognition/Verification:
 
-### Speaker Models
+## Speaker Models
  * overview: 
    * Overview of Speaker Modeling and Its Applications: From the Lens of Deep Speaker Representation Learning
  * i-vector 
@@ -60,44 +55,44 @@ Summary of speaker related tasks, like speaker recognition, verification, diariz
 
 
 
- ### Aggregation Layers 
+ ## Aggregation Layers 
  implementation: wespeaker/models/pooling_layers
  * Temporal Average Pooling (TAP)
  * Temporal Statistics Pooling (TSTP): X-vectors: Robust dnn embeddings for speaker recognition
  * Attentive Statistics Pooling (ASP): ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification
  
 
- ### Datasets 
+ ## Datasets 
  * Voxceleb1 
  * Voxceleb2 
  * 
 
- ### Challenge 
+ ## Challenge 
  * [NIST SRE](https://sre.nist.gov/#tab_home)
 
 
-## Voice Conversion 
+# Voice Conversion 
 
-### Non-parallel:
+## Non-parallel:
 * CycleGAN-VC: Non-parallel Voice Conversion Using Cycle-Consistent Adversarial Networks
 
-### Voice Anonymization
+## Voice Anonymization
 * MODELING PSEUDO-SPEAKER UNCERTAINTY IN VOICE ANONYMIZATION
 
-## Target Speaker Extraction
+# Target Speaker Extraction
 * INVESTIGATION OF SPEAKER REPRESENTATION FOR TARGET-SPEAKER SPEECH PROCESSING
 * 
 
-## Speaker Diarization 
+# Speaker Diarization 
 
-## Spoofing 
+# Spoofing 
 * Towards Quantifying and Reducing Language Mismatch Effects in Cross-Lingual Speech Anti-Spoofing
 
 
-## Targer Speaker ASR 
+# Targer Speaker ASR 
 
 
-## Personalized VAD 
+# Personalized VAD 
 
-## Others
+# Others
 * Emerging Properties in Self-Supervised Vision Transformers
