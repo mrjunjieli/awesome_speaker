@@ -1,11 +1,6 @@
 ---
 title: Awesome Speech 
 top: true
-tag:
-- Speaker Verification
-- Machine Learning
-categories:
-- Research
 ---
 
 
@@ -53,22 +48,35 @@ This repository aims to help students become familiar with speech-related tasks,
    * Lee, K. A., Wang, Q., & Koshinaka, T. (2021). Xi-vector embedding for speaker recognition. IEEE Signal Processing Letters, 28, 1385-1389.
    * Wang, Q., & Lee, K. A. (2024). Cosine Scoring with Uncertainty for Neural Speaker Embedding. IEEE Signal Processing Letters.
    * Chen, L., Lee, K. A., Guo, W., & Ling, Z. H. (2024, April). Modeling Pseudo-Speaker Uncertainty in Voice Anonymization. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 11601-11605). IEEE.
+   * Wang, Q., Lee, K. A., & Liu, T. (2023, June). Incorporating uncertainty from speaker embedding estimation to speaker verification. In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1-5). IEEE.
+   * Liu, T., Lee, K. A., Wang, Q., & Li, H. (2023). Disentangling voice and content with self-supervision for speaker recognition. Advances in Neural Information Processing Systems, 36, 50221-50236.
 
 * Ravanelli, M., & Bengio, Y. (2018, December). Speaker recognition from raw waveform with sincnet. In 2018 IEEE spoken language technology workshop (SLT) (pp. 1021-1028). IEEE.
 * Zhou, D., Wang, L., Lee, K. A., Wu, Y., Liu, M., Dang, J., & Wei, J. (2020, October). Dynamic Margin Softmax Loss for Speaker Verification. In INTERSPEECH (pp. 3800-3804).
 * Cai, D., & Li, M. (2024). Leveraging asr pretrained conformers for speaker verification through transfer learning and knowledge distillation. IEEE/ACM Transactions on Audio, Speech, and Language Processing.
 
 * **softmax**
-   * L-softmax: 
-      Liu, W., Wen, Y., Yu, Z., & Yang, M. (2016). Large-margin softmax loss for convolutional neural networks. arXiv preprint arXiv:1612.02295.
+   * L-softmax: Liu, W., Wen, Y., Yu, Z., & Yang, M. (2016). Large-margin softmax loss for convolutional neural networks. arXiv preprint arXiv:1612.02295.
    * A-softmax: 
       * Li, Y., Gao, F., Ou, Z., & Sun, J. (2018, November). Angular softmax loss for end-to-end speaker verification. In 2018 11th International Symposium on Chinese Spoken Language Processing (ISCSLP) (pp. 190-194). IEEE.
       * Liu, W., Wen, Y., Yu, Z., Li, M., Raj, B., & Song, L. (2017). Sphereface: Deep hypersphere embedding for face recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 212-220).
+   * SphereFace2:
+      * Han, B., Chen, Z., & Qian, Y. (2023, June). Exploring binary classification loss for speaker verification. In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1-5). IEEE.
    * AM-softmax:
+      * Wang, H., Wang, Y., Zhou, Z., Ji, X., Gong, D., Zhou, J., ... & Liu, W. (2018). Cosface: Large margin cosine loss for deep face recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 5265-5274).
       * Wang, F., Cheng, J., Liu, W., & Liu, H. (2018). Additive margin softmax for face verification. IEEE Signal Processing Letters, 25(7), 926-930.
+   * AAM-softmax:
+      Deng, J., Guo, J., Xue, N., & Zafeiriou, S. (2019). Arcface: Additive angular margin loss for deep face recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 4690-4699).
    * DAM-softmax:
       * Zhou, D., Wang, L., Lee, K. A., Wu, Y., Liu, M., Dang, J., & Wei, J. (2020, October). Dynamic Margin Softmax Loss for Speaker Verification. In INTERSPEECH (pp. 3800-3804).
+   * MV-Softmax
+      * Wang, X., Zhang, S., Wang, S., Fu, T., Shi, H., & Mei, T. (2020, April). Mis-classified vector guided softmax loss for face recognition. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 34, No. 07, pp. 12241-12248).
+   * Huang, Y., Wang, Y., Tai, Y., Liu, X., Shen, P., Li, S., ... & Huang, F. (2020). Curricularface: adaptive curriculum learning loss for deep face recognition. In proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 5901-5910).
+   * Kim, M., Jain, A. K., & Liu, X. (2022). Adaface: Quality adaptive margin for face recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 18750-18759).
 
+   summary: https://zhuanlan.zhihu.com/p/23089590666 
+
+   
 
  * **Datasets**
    * Vox1: Nagrani, A., Chung, J. S., Xie, W., & Zisserman, A. (2020). Voxceleb: Large-scale speaker verification in the wild. Computer Speech & Language, 60, 101027. 
@@ -83,6 +91,8 @@ This repository aims to help students become familiar with speech-related tasks,
 * Ju, Z., Wang, Y., Shen, K., Tan, X., Xin, D., Yang, D., ... & Zhao, S. (2024). Naturalspeech 3: Zero-shot speech synthesis with factorized codec and diffusion models. arXiv preprint arXiv:2403.03100.
 
 
+# Audio Codec
+* Défossez, A., Copet, J., Synnaeve, G., & Adi, Y. (2022). High fidelity neural audio compression. arXiv preprint arXiv:2210.13438.
 
 
 # Voice Conversion 
