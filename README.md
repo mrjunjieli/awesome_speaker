@@ -8,10 +8,6 @@ top: true
 This repository aims to help students become familiar with speech-related tasks, such as speech separation, speaker verification, ASR, TTS and so on. 
 
 
-# How to write a good paper 
-* [Novelty in Science](https://perceiving-systems.blog/en/news/novelty-in-science)
-* [Writing a good scientific paper](https://perceiving-systems.blog/en/post/writing-a-good-scientific-paper)
-
 
 
 # Book recommendations
